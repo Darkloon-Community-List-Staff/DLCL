@@ -87,6 +87,7 @@
 .page-leaderboard .player .table .score p {
     text-align: end;
     border: 3px solid grey;
+    border-collapse: collapse;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
