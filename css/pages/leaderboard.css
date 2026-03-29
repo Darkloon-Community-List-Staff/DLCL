@@ -73,7 +73,7 @@
 }
 .page-leaderboard .player .table {
     table-layout: fixed;
-    border: 2px solid grey;
+    border: 3px solid grey;
 }
 .page-leaderboard .player .table tr td:not(:last-child) {
     padding-right: 2rem;
@@ -81,10 +81,12 @@
 .page-leaderboard .player .table p,
 .page-leaderboard .player .table a {
     padding-block: 1rem;
+    border: 3px solid grey;
 }
 .page-leaderboard .player .table .rank p,
 .page-leaderboard .player .table .score p {
     text-align: end;
+    border: 3px solid grey;
 }
 .page-leaderboard .player .table .level {
     width: 100%;
