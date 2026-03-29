@@ -12,7 +12,8 @@
             "user": "veyra",
             "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
             "percent": 100,
-            "hz": 360
+            "hz": 360,
+            "mobile":true
         }
     ]
 }
