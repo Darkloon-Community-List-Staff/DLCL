@@ -26,6 +26,7 @@
 .page-leaderboard .player-container {
     grid-row: 2;
     padding-block: 2rem;
+    border: 3px solid grey;
 }
 .page-leaderboard .board-container {
     padding-inline: 1rem;
@@ -81,7 +82,6 @@
 .page-leaderboard .player .table p,
 .page-leaderboard .player .table a {
     padding-block: 1rem;
-    border: 3px solid grey;
 }
 .page-leaderboard .player .table .rank p,
 .page-leaderboard .player .table .score p {
