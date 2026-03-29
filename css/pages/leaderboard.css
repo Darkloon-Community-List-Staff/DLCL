@@ -73,6 +73,7 @@
 }
 .page-leaderboard .player .table {
     table-layout: fixed;
+    border: 2px solid grey;
 }
 .page-leaderboard .player .table tr td:not(:last-child) {
     padding-right: 2rem;
