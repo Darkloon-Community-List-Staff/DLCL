@@ -9,7 +9,13 @@
     "password": "Not Copyable",
     "records": [
         {
-            "user": "Sample_Victor_1",
+            "user": "brat",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "veyra",
             "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
             "percent": 100,
             "hz": 360
