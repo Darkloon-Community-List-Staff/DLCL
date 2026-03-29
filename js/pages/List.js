@@ -93,25 +93,25 @@ export default {
                     </template>
                     <h3>Submission Regeln</h3>
                     <p>
-                        Der Rekord muss legit geschafft werden (Cbf ist erlaubt).
+                        - Der Rekord muss legit geschafft werden (Cbf ist erlaubt).
                     </p>
                     <p>
-                        Im Audio der Completion müssen Klick-Sounds zu hören sein.
+                        - Im Audio der Completion müssen Klick-Sounds zu hören sein.
                     </p>
                     <p>
-                        Es muss der Completion Attempt sowie der vorherige Attempt und die Todesanimation vorgezeig werden, es sei denn die Completion erfolgt im ersten Versuch.
+                        - Es muss der Completion Attempt sowie der vorherige Attempt und die Todesanimation vorgezeig werden, es sei denn die Completion erfolgt im ersten Versuch.
                     </p>
                     <p>
-                        Die Level Complete-Animation muss in der Aufnahme abgespielt werden.
+                        - Die Level Complete-Animation muss in der Aufnahme abgespielt werden.
                     </p>
                     <p>
-                        Die Nutzung von Secret ways, Bugs oder ähnlichem ist nicht gestattet.
+                        - Die Nutzung von Secret ways, Bugs oder Ähnlichem ist nicht gestattet.
                     </p>
                     <p>
-                        Das Level darf nicht auf einer einfacheren Kopie geschafft werden, sondern nur auf der Originalen oder einer gestatteten Kopie.
+                        - Das Level darf nicht auf einer einfacheren Kopie geschafft werden, sondern nur auf der Originalen oder einer gestatteten Kopie.
                     </p>
                     <p>
-                        Cheat Indicator MUSS im Endscreen zu sehen sein.
+                        - Cheat Indicator MUSS im Endscreen zu sehen sein.
                     </p>
                 </div>
             </div>
