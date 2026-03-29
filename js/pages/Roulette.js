@@ -13,7 +13,7 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar">
                 <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                    Credits an <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
                 </p>
                 <form class="options">
                     <div class="check">
@@ -27,13 +27,13 @@ export default {
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
-                    The roulette saves automatically.
+                    Das Roulette wird automatisch gespeichert
                 </p>
                 <form class="save">
-                    <p>Manual Load/Save</p>
+                    <p>Manuelles Laden/Speichern</p>
                     <div class="btns">
-                        <Btn @click.native.prevent="onImport">Import</Btn>
-                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
+                        <Btn @click.native.prevent="onImport">Importieren</Btn>
+                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Exportieren</Btn>
                     </div>
                 </form>
             </div>
@@ -63,8 +63,8 @@ export default {
                             </div>
                             <form class="actions" v-if="!givenUp">
                                 <input type="number" v-model="percentage" :placeholder="placeholder" :min="currentPercentage + 1" max=100>
-                                <Btn @click.native.prevent="onDone">Done</Btn>
-                                <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Give Up</Btn>
+                                <Btn @click.native.prevent="onDone">Beendet</Btn>
+                                <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Aufgeben</Btn>
                             </form>
                         </div>
                         <!-- Results -->

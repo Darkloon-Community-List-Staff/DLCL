@@ -43,22 +43,18 @@ export default {
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Points when completed</div>
+                            <div class="type-title-sm">Punkte bei einer Completion</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
                             <p>{{ level.id }}</p>
                         </li>
-                        <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
                     </ul>
-                    <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
-                    <p v-else>This level does not accept new records.</p>
+                    <h2>Rekorde</h2>
+                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> oder besser zum qualifizieren</p>
+                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> oder besser zum qualifizieren</p>
+                    <p v-else>Dieses Level nimmt keine neuen Rekorde an</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -95,30 +91,27 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Submission Regeln</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Der Rekord muss legit geschafft werden (Cbf ist erlaubt).
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Im Audio der Completion müssen Klick-Sounds zu hören sein.
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        Es muss der Completion Attempt sowie der vorherige Attempt und die Todesanimation vorgezeig werden, es sei denn die Completion erfolgt im ersten Versuch.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        Die Level Complete-Animation muss in der Aufnahme abgespielt werden.
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        Die Nutzung von Secret ways, Bugs oder ähnlichem ist nicht gestattet.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Das Level darf nicht auf einer einfacheren Kopie geschafft werden, sondern nur auf der Originalen oder einer gestatteten Kopie.
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Cheat Indicator MUSS im Endscreen zu sehen sein.
                     </p>
                 </div>
             </div>
